@@ -1,0 +1,26 @@
+@import url(GirlChildEdu2.html)
+        body{
+        	background-color: PowderBlue;
+        }
+        h2{
+        	text-align: center;
+        	font-size: 30px;
+        	border: 4px inset pink;
+        	padding: 5px;
+        	border-width: 10px;
+        }
+        p{
+        	font-size: 25px;
+        }
+        img{
+        	border: 6px solid pink;
+        	float: right;
+        }
+        a{
+        	font-size: 25px;
+        	background-color: purple;
+        	color: white;
+        }
+        .flt{
+        	float: left;
+        }

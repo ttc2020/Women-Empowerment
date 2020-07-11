@@ -1,0 +1,39 @@
+@import url(GirlChildEdu4.html)
+        body{
+			background-image: url(bg3.jpg);
+			background-repeat: no-repeat;
+     	    background-attachment: fixed;
+     	    background-size: 100% 100%;
+		}
+		*{
+			color: white;
+		}
+		.abc{
+			font-size: 30px;
+			font-family: sans-serif;
+			text-align: center;
+		}
+		p{
+			font-size: 25px;
+			font-family: sans-serif;
+		}
+		img{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			border: 5px solid DodgerBlue;
+		}
+		abbr{
+			text-decoration: none;
+		}
+		a[target="_blank"]{
+			text-decoration: none;
+			background-color: #b6fc03;
+			color: black;
+			font-size: 25px;
+		}
+		a[target="_self"]{
+			text-decoration: none;
+			background-color: rgb(252,3,169);
+			font-size: 25px;
+		}

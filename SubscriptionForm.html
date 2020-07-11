@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subscribe!</title>
+	<link rel="stylesheet" type="text/css" href="SF.css">
+	<style type="text/css">
+		body{
+			background-image: url(bg8.jpg);
+			background-repeat: no-repeat;
+     	    background-attachment: fixed;
+     	    background-size: 100% 100%;
+		}
+	</style>
+</head>
+<body>
+	<p>Welcome to the subscription page.<br>
+	 Please fill this form up to partner with any NGO of your choice and help the girls who are struggling to receive education.</p><hr>
+	<form action="/action_page.php" method="post">
+		<button type="button" onclick="alert('Please fill all the sections')">Click Here</button><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required>
+        <br>
+        <label for="lname">Last name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" required>
+        <br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <br>
+        <label for="birthday">Birthday:</label>
+        <br>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <label for="NGO">Select NGO:</label>
+        <br>
+        <select id="NGO" name="NGO" required>
+              <option value=" Make A Difference (MAD)"> Make A Difference (MAD)</option>
+              <option value="Teach for India (TFI)">Teach for India (TFI)</option>
+              <option value="Pratham">Pratham</option>
+              <option value="The Akshaya Patra Foundation (TAPF)">The Akshaya Patra Foundation (TAPF)</option>
+              <option value="Akanksha Foundation">Akanksha Foundation</option>
+              <option value=" Child Rights and You (CRY)"> Child Rights and You (CRY)</option>
+              
+        </select><br>
+        <label for="textarea">Address</label>
+        <br>
+        <textarea name="textarea" id="textarea" rows="20" cols="50" required></textarea><br>
+        <label for="email">Enter Your Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="1234-567-890" required><br><pre>
+
+<input type="submit" name="submit" class="it"><br></pre>
+ <input type="reset" name="reset" class="it">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import url(GirlChildEdu6.html)
+		body{
+			background-image: url(bg6.jpg);
+			background-repeat: no-repeat;
+     	    background-attachment: fixed;
+     	    background-size: 100% 100%;
+     	}
+     	h2{
+     		text-align: center;
+            font-size: 30px;
+     	}
+     	ul{
+     		font-size: 25px;
+     		list-style-type: square;
+     		line-height: 120%;
+     		color: hsl(150, 67%, 72%);
+     	}
+     	video{
+     		display: block;
+     		margin: auto;
+     		border: 5px dashed #f5ce42;
+     		padding: 10px;
+     	}
+     	a{
+     		font-size: 25px;
+     		font-family: sans-serif;
+     		background-image: url(ag1.jpg);
+     		border: 4px solid black;
+     		text-decoration: none;
+     		color: white;
+
+     	}

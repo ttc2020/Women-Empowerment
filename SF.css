@@ -1,0 +1,20 @@
+@import url(SubscriptionForm.html)
+		body{
+			background-image: url(bg8.jpg);
+			background-repeat: no-repeat;
+     	    background-attachment: fixed;
+     	    background-size: 100% 100%;
+		}
+		p{
+			font-size: 25px;
+			color: rgb(167,198,95);
+		}
+		label{
+			font-size: 25px;
+			color: rgb(52, 235, 213);
+		}
+		.it{
+			background-color: #ebe134;
+			border: 2px solid black;
+			padding: 8px;
+		}
